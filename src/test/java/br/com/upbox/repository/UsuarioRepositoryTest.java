@@ -27,10 +27,11 @@ public class UsuarioRepositoryTest {
         usuario.setSenha("123mudar");
     }
 
-//    @Test
-//    public void deveSalverOUsuarioNoBanco() {
-//        repository.salva(usuario);
-//    }
+    @Test
+    public void deveSalvarOUsuarioNoBanco() {
+        Usuario resultado = repository.salva(usuario);
+        assertNull(resultado);
+    }
 
     @Test
     public void deveRetornarOUsuarioIsadoraDoBanco() {
@@ -38,6 +39,25 @@ public class UsuarioRepositoryTest {
 
         assertTrue(mimipohlmann.getEmail().equals("isadorarpoh@gmail.com"));
         assertEquals("Isadora Rizzato", mimipohlmann.getNome());
+    }
+
+    @Test
+    public void deveSalvarUmUsuarioNoBancoEDepoisApagarEle() {
+        var joseSilva = new Usuario();
+        joseSilva.setNome("José da Silva");
+        joseSilva.setUuid(UUID.randomUUID());
+        joseSilva.setDataNascimento(LocalDate.of(1960, Month.APRIL, 15));
+        joseSilva.setEmail("josesilva@gmail.com");
+        joseSilva.setUsername("josesilva");
+        joseSilva.setSenha("123mudar");
+
+        Usuario resultadoSalva = repository.salva(joseSilva);
+        assertNotNull(resultadoSalva);
+        assertEquals(LocalDate.of(1960, Month.APRIL, 15), resultadoSalva.getDataNascimento());
+
+        Usuario resultadoRemove = repository.remove("josesilva");
+        assertNotNull(resultadoRemove);
+        assertEquals("José da Silva", resultadoRemove.getNome());
     }
 
 
