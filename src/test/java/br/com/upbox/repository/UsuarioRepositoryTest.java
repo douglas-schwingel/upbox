@@ -55,7 +55,7 @@ public class UsuarioRepositoryTest {
         assertNotNull(resultadoSalva);
         assertEquals(LocalDate.of(1960, Month.APRIL, 15), resultadoSalva.getDataNascimento());
 
-        Usuario resultadoRemove = repository.remove("josesilva");
+        Usuario resultadoRemove = repository.remove(joseSilva);
         assertNotNull(resultadoRemove);
         assertEquals("José da Silva", resultadoRemove.getNome());
     }

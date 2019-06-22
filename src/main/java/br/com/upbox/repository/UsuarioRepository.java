@@ -12,7 +12,10 @@ import org.bson.codecs.Codec;
 import org.bson.codecs.configuration.CodecRegistries;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.NotNull;
+import javax.websocket.server.PathParam;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -75,18 +78,18 @@ public class UsuarioRepository {
 
     /**
      *
-     * @param username
+     * @param usuario
      * @apiNote Remove um usuário baseado no username passado
      * @return Usuario deletado ou null caso não exista nenhum usuario com o mesmo username no banco
      */
-    public Usuario remove(String username) {
-        if(!verificaSeUsuarioJaExiste(username)) {
-            logger.log(Level.INFO, "Usuário " + username + " não existe.");
+    public Usuario remove(Usuario usuario) {
+        if(!verificaSeUsuarioJaExiste(usuario.getUsername())) {
+            logger.log(Level.INFO, "Usuário " + usuario.getUsername() + " não existe.");
             return null;
         }
         conecta();
-        logger.log(Level.INFO, "Apagando usuário " + username);
-        Usuario resultado = collection.findOneAndDelete(Filters.eq("username", username));
+        logger.log(Level.INFO, "Apagando usuário " + usuario.getUsername());
+        Usuario resultado = collection.findOneAndDelete(Filters.eq("username", usuario.getUsername()));
         client.close();
         return resultado;
     }

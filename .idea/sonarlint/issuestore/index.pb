@@ -1,3 +1,23 @@
 
 b
 2src/main/java/br/com/upbox/codec/UsuarioCodec.java,3/5/35bd9fb2d4c23fab77486fd2d053361a81203968
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+j
+:src/main/java/br/com/upbox/exception/UsuarioException.java,1/4/14f03f34e3ef7a1e063fe3a50fc9d8877ea69e25
+f
+6src/test/java/br/com/upbox/codec/UsuarioCodecTest.java,c/c/cce0a00db8fe9b79bb02cb9c7649d75b3bb67a72
+^
+.src/main/java/br/com/upbox/models/Usuario.java,f/d/fd405b7f154f14d4ed9941b0e53dfbb13cfed186
+b
+2src/main/java/br/com/upbox/config/MongoConfig.java,e/c/ecac7f69260ec4f9701840547be5e012b0e39584
+l
+<src/main/java/br/com/upbox/repository/UsuarioRepository.java,6/b/6b274fb29eb358f32177e0ae17a285c749145cf2
+p
+@src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java,5/3/5365e5fc268fd294a8bf50b904dfbc233e18d37f
+d
+4src/main/java/br/com/upbox/config/SwaggerConfig.java,e/0/e077986a48359b237cafdb44c066fcd77469f295
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+f
+6src/main/java/br/com/upbox/upbox/UpboxApplication.java,d/0/d03bc468b81d3d618df547bfa0f1388ea7cdf923
