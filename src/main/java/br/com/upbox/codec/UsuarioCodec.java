@@ -7,6 +7,7 @@ import org.bson.codecs.Codec;
 import org.bson.codecs.CollectibleCodec;
 import org.bson.codecs.DecoderContext;
 import org.bson.codecs.EncoderContext;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -72,7 +73,9 @@ public class UsuarioCodec implements CollectibleCodec<Usuario> {
         document.put("email", usuario.getEmail());
         document.put("username", usuario.getUsername());
         document.put("dataNascimento", usuario.getDataNascimento());
-        document.put("senha", usuario.getSenha());
+        String salto = BCrypt.gensalt();
+        String senhaHash = BCrypt.hashpw(usuario.getSenha(), salto);
+        document.put("senha", senhaHash);
         return document;
     }
 
