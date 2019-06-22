@@ -64,7 +64,7 @@ public class UsuarioCodec implements CollectibleCodec<Usuario> {
         return usuario;
     }
 
-    private Document criaDocument(Usuario usuario) {
+    public Document criaDocument(Usuario usuario) {
         Document document = new Document();
         document.put("_id", usuario.getId());
         document.put("uuid", usuario.getUuid().toString());

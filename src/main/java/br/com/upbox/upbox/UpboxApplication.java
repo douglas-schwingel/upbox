@@ -1,6 +1,5 @@
 package br.com.upbox.upbox;
 
-import br.com.upbox.config.MongoConfig;
 import br.com.upbox.config.SwaggerConfig;
 import br.com.upbox.controller.UsuarioController;
 import br.com.upbox.repository.UsuarioRepository;

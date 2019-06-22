@@ -2,12 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3053d8-7caf-45a5-9b92-b5d3a28fcea3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5365e5fc268fd294a8bf50b904dfbc233e18d37f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5365e5fc268fd294a8bf50b904dfbc233e18d37f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b274fb29eb358f32177e0ae17a285c749145cf2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b274fb29eb358f32177e0ae17a285c749145cf2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d03bc468b81d3d618df547bfa0f1388ea7cdf923" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d03bc468b81d3d618df547bfa0f1388ea7cdf923" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecac7f69260ec4f9701840547be5e012b0e39584" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecac7f69260ec4f9701840547be5e012b0e39584" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-06-22T04-09-47Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-06-22T04-09-47Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000005" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-0--2940928943168947279.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-0--2940928943168947279.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-2--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-2--8025191243034508012.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-4--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-4--8025191243034508012.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-1--2940928943168947279.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-1--2940928943168947279.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-3--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-3--8025191243034508012.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-5--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-5--8025191243034508012.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-6--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-6--8025191243034508012.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000005" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/codec/UsuarioCodec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/codec/UsuarioCodec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/upbox/UpboxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/upbox/UpboxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,18 +64,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -57,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="74">
+              <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="54">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="54">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+            <state relative-caret-position="-466">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +144,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -125,15 +161,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/exception/UsuarioException.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/upbox/codec/UsuarioCodecTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/MongoConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/RepositoryConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" />
       </list>
     </option>
   </component>
@@ -150,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,6 +233,24 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="upbox" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upbox" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upbox" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,10 +271,42 @@
               <item name="upbox" type="462c0819:PsiDirectoryNode" />
               <item name="upbox" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="upbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upbox" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,31 +429,11 @@
       <workItem from="1561160976052" duration="166000" />
       <workItem from="1561161152955" duration="14433000" />
       <workItem from="1561175968909" duration="1918000" />
+      <workItem from="1561211033095" duration="7208000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 09m 00s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 10m 45s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 11m 33s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 12m 59s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 24m 01s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 26m 25s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 28m 51s.xml">
-      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 29m 11s.xml">
       <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -377,22 +443,43 @@
     <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 00h 40m 32s.xml">
       <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 24m 53s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 32m 51s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 47m 15s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 54m 37s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 58m 49s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 12h 59m 59s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuarioRepositoryTest - 2019.06.22 at 13h 01m 10s.xml">
+      <configuration name="UsuarioRepositoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16677000" />
+    <option name="totallyTimeSpent" value="23885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1368" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50120485" side_tool="true" weight="0.2659091" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6542811" />
@@ -405,7 +492,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32956383" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32956383" />
       <window_info anchor="bottom" id="SonarLint" order="14" weight="0.32956383" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32956383" />
@@ -486,38 +573,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -562,10 +612,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/RepositoryConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="74">
+          <caret line="82" column="85" selection-start-line="82" selection-start-column="85" selection-end-line="82" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,24 +678,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/upbox/UpboxApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
           </folding>
         </state>
       </provider>

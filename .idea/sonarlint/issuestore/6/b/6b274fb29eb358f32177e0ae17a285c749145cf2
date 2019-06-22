@@ -1,6 +1,5 @@
 
-Usquid:S2629M"7Use the built-in formatting to construct this argument.(°«Æ8¾„°é·-
-csquid:S4684Y"@Replace this persistent entity with a simple POJO or DTO object.(Ñ¬­®şÿÿÿÿ8ºòê·-
-csquid:S46845"@Replace this persistent entity with a simple POJO or DTO object.( ¦—Éøÿÿÿÿ8«İùé·-
-Zsquid:S2629i"7Use the built-in formatting to construct this argument.(—Ñ¦Åøÿÿÿÿ8Æî‚é·-
 msquid:UselessImportCheck"=Remove this unused import 'javax.websocket.server.PathParam'.(ÊÊş†ûÿÿÿÿ8ÏÃ‰ê·-
+Zsquid:S2629e"7Use the built-in formatting to construct this argument.(—Ñ¦Åøÿÿÿÿ8Æî‚é·-
+qsquid:UselessImportCheck"ARemove this unused import 'javax.validation.constraints.NotNull'.(áç¥ãüÿÿÿÿ8¥¡ë·-
+Usquid:S2629J"7Use the built-in formatting to construct this argument.(°«Æ8¾„°é·-
