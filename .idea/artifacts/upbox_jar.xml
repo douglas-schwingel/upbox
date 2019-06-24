@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="upbox:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/upbox_jar</output-path>
+    <root id="archive" name="upbox.jar">
+      <element id="module-output" name="upbox.main" />
+    </root>
+  </artifact>
+</component>

@@ -5,8 +5,6 @@ b
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 j
 :src/main/java/br/com/upbox/exception/UsuarioException.java,1/4/14f03f34e3ef7a1e063fe3a50fc9d8877ea69e25
-f
-6src/test/java/br/com/upbox/codec/UsuarioCodecTest.java,c/c/cce0a00db8fe9b79bb02cb9c7649d75b3bb67a72
 ^
 .src/main/java/br/com/upbox/models/Usuario.java,f/d/fd405b7f154f14d4ed9941b0e53dfbb13cfed186
 b
@@ -27,3 +25,15 @@ f
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 l
 <src/main/java/br/com/upbox/controller/UsuarioController.java,2/3/235ef76fa0f333342d569c0545204ec6138f8cae
+h
+8src/main/java/br/com/upbox/upbox/ServletInitializer.java,9/6/96a424bc69b5f69ecce021390a94290fb607a347
+a
+1src/main/java/br/com/upbox/retrofit/Resposta.java,8/f/8fa02475f3b12d439e80afda65264c8ae6807db5
+f
+6src/main/java/br/com/upbox/retrofit/GoogleService.java,5/9/59ee62d955b1c1782829fd647ac93868ef3455c0
+h
+8src/main/java/br/com/upbox/retrofit/GoogleWebClient.java,c/1/c1c731611721c2e748eb3f6224dcdde6538f6504
+l
+<src/main/java/br/com/upbox/retrofit/RetrofitInitializer.java,f/d/fdc0eb390b0a9c13a08d5b44c49992d352fc2faf
+j
+:src/main/java/br/com/upbox/controller/LoginController.java,d/1/d1cffc6117f8c5ff0803c5a3ab801e3b3be95070

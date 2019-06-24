@@ -1,11 +1,0 @@
-
-gsquid:UselessImportCheck"=Remove this unused import 'com.sun.jna.platform.win32.OaIdl'.(öÜ½	8ø§Óå·-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾İÿµ8üüûå·-
-rsquid:S1450"TRemove the "codec" field and declare it as a local variable in the relevant methods.(ÖÂö¶8üüûå·-
-Rsquid:S1191"5Use classes from the Java API instead of Sun classes.(öÜ½	8ø§Óå·-
-†squid:UselessImportCheck"\Remove this unused import 'org.springframework.data.mongodb.core.aggregation.DateOperators'.(‡õÇ$8ø§Óå·-
-\squid:UselessImportCheck",Remove this unused import 'java.time.Month'.(¤‚Éøÿÿÿÿ8½Òüå·-
-`squid:UselessImportCheck"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8½Òüå·-
-dsquid:UselessImportCheck"4Remove this unused import 'org.bson.types.ObjectId'.(Ü¡‰çıÿÿÿÿ8½Òüå·-
-[squid:UselessImportCheck"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8½Òüå·-
-hsquid:UselessImportCheck"8Remove this unused import 'br.com.upbox.models.Usuario'.(§µ¸˜ÿÿÿÿÿ8½Òüå·-

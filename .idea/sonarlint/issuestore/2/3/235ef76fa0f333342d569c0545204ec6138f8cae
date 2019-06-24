@@ -1,5 +1,4 @@
 
-csquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.( ¦—Éøÿÿÿÿ8©±ë·-
-vsquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8¨®²ë·-
-csquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(¶£‰îùÿÿÿÿ8 £ë·-
-Õsquid:S1598"±This file "UsuarioController.java" should be located in "br/com/upbox/controller" directory, not in "/home/douglas/Documents/eclipse-workspace/upbox/src/main/java/br/com/upbox".(í÷±şÿÿÿÿ8«Şµë·-
+csquid:S4684$"@Replace this persistent entity with a simple POJO or DTO object.(¤Ì„–ûÿÿÿÿ8 £ë·-
+csquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(°á°Ìúÿÿÿÿ8©±ë·-
+csquid:S4684+"@Replace this persistent entity with a simple POJO or DTO object.(¨³ùùÿÿÿÿ8„‰»ÿ·-
