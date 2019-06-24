@@ -37,3 +37,5 @@ l
 <src/main/java/br/com/upbox/retrofit/RetrofitInitializer.java,f/d/fdc0eb390b0a9c13a08d5b44c49992d352fc2faf
 j
 :src/main/java/br/com/upbox/controller/LoginController.java,d/1/d1cffc6117f8c5ff0803c5a3ab801e3b3be95070
+A
+system.properties,a/5/a5db35984da8ffa0e255c16a2e31ae7b26e7d222
