@@ -9,6 +9,7 @@ apply plugin: 'io.spring.dependency-management'
 group = 'br.com.upbox'
 version = '0.0.1-SNAPSHOT'
 
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
