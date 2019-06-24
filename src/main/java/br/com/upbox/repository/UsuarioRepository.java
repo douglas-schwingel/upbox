@@ -22,7 +22,8 @@ import java.util.logging.Logger;
 public class UsuarioRepository {
     private static final Logger logger = Logger.getLogger(UsuarioRepository.class.getName());
     private static final String PARAM_BUSCA = "username";
-    public static final String STRING_MONGO_DB = "mongodb://admin:upb0x4dm1n@ds343127.mlab.com:43127/heroku_d42tsbq0";
+    private static final String URL_MONGO = "mongodb://admin:upb0x4dm1n@ds343127.mlab.com:43127/heroku_d42tsbq0";
+    private static final String MONGO_DB = "heroku_d42tsbq0";
 
     private MongoClient client;
     private MongoCollection<Usuario> collection;
@@ -36,8 +37,8 @@ public class UsuarioRepository {
                 CodecRegistries.fromCodecs(usuarioCodec));
 
         MongoClientOptions options = MongoClientOptions.builder().codecRegistry(codecRegistry).build();
-        this.client = new MongoClient(STRING_MONGO_DB, options);
-        this.collection = client.getDatabase("upbox").getCollection("usuarios", Usuario.class);
+        this.client = new MongoClient(URL_MONGO, options);
+        this.collection = client.getDatabase(MONGO_DB).getCollection("usuarios", Usuario.class);
     }
 
 
