@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3053d8-7caf-45a5-9b92-b5d3a28fcea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="7d3053d8-7caf-45a5-9b92-b5d3a28fcea3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="360">
+              <caret line="37" column="106" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,19 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/791ff2cd90a73340d88d7d65c7d612fc2bce5f60/mongodb-driver-3.8.2-sources.jar!/com/mongodb/MongoClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="49" />
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/MongoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/RepositoryConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" />
@@ -177,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" />
       </list>
     </option>
   </component>
@@ -398,7 +387,7 @@
       <workItem from="1561161152955" duration="14433000" />
       <workItem from="1561175968909" duration="1918000" />
       <workItem from="1561211033095" duration="19558000" />
-      <workItem from="1561396812034" duration="2225000" />
+      <workItem from="1561396812034" duration="2497000" />
     </task>
     <servers />
   </component>
@@ -435,7 +424,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38460000" />
+    <option name="totallyTimeSpent" value="38732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,16 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.8.2/791ff2cd90a73340d88d7d65c7d612fc2bce5f60/mongodb-driver-3.8.2-sources.jar!/com/mongodb/MongoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -719,7 +698,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="49" />
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="37" column="106" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
