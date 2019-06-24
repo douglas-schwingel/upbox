@@ -35,7 +35,7 @@ public class UsuarioRepository {
                 CodecRegistries.fromCodecs(usuarioCodec));
 
         MongoClientOptions options = MongoClientOptions.builder().codecRegistry(codecRegistry).build();
-        this.client = new MongoClient("localhost:27017", options);
+        this.client = new MongoClient("mongodb://admin:upb0x4dm1n@ds343127.mlab.com:43127/heroku_d42tsbq0", options);
         this.collection = client.getDatabase("upbox").getCollection("usuarios", Usuario.class);
     }
 
