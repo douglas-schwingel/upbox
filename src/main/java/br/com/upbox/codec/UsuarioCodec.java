@@ -56,7 +56,7 @@ public class UsuarioCodec implements CollectibleCodec<Usuario> {
         usuario.setUuid(UUID.fromString(document.getString("uuid")));
         usuario.setNome(document.getString("nome"));
         usuario.setEmail(document.getString("email"));
-        Instant dataInstant = document.getDate("dataNascimento").toInstant();
+//        Instant dataInstant = document.getDate("dataNascimento").toInstant();
 //        usuario.setDataNascimento(LocalDate.ofInstant(dataInstant, ZoneId.systemDefault()));
         usuario.setUsername(document.getString("username"));
         usuario.setSenha(document.getString("senha"));

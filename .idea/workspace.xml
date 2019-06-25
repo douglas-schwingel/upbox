@@ -7,37 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3053d8-7caf-45a5-9b92-b5d3a28fcea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-0--2940928943168947279.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-0--2940928943168947279.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-2--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-2--8025191243034508012.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-4--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-4--8025191243034508012.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-1--2940928943168947279.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-1--2940928943168947279.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-3--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-3--8025191243034508012.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-5--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-5--8025191243034508012.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-6--8025191243034508012.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-6--8025191243034508012.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/config/MongoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/config/MongoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/models/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/models/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/upbox/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/upbox/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,12 +44,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="213">
+              <caret line="62" column="92" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,20 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-942">
-              <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+            <state relative-caret-position="198">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,6 +108,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
               <caret line="23" selection-start-line="23" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="54" column="92" selection-start-line="54" selection-start-column="92" selection-end-line="54" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,10 +163,10 @@
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/config/MongoConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/upbox/repository/UsuarioRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java" />
       </list>
@@ -521,7 +492,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51949000" />
+    <option name="totallyTimeSpent" value="57911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,44 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="23" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="58" column="7" selection-start-line="52" selection-start-column="6" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,10 +750,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/models/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="58" column="7" selection-start-line="52" selection-start-column="6" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/controller/UsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="62" column="92" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/codec/UsuarioCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/upbox/repository/UsuarioRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-942">
-          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        <state relative-caret-position="-162">
+          <caret line="54" column="92" selection-start-line="54" selection-start-column="92" selection-end-line="54" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

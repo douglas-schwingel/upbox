@@ -5,7 +5,6 @@ import br.com.upbox.repository.UsuarioRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.json.JSONStringer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +26,7 @@ public class UsuarioController {
 
     @ApiOperation(value = "Busca Usuario")
     @GetMapping(value = "/{username}")
-    public Usuario buscaUsuario(@NotNull @PathVariable("username") String username) {
+    public String buscaUsuario(@NotNull @PathVariable("username") String username) {
         return repository.busca(username);
     }
 
@@ -48,13 +47,19 @@ public class UsuarioController {
 
     @ApiOperation(value = "Remove Usuario")
     @DeleteMapping
-    public Usuario removeUsuario(@RequestBody @NotNull Usuario usuario) {
+    public String removeUsuario(@RequestBody @NotNull String json) {
+        Usuario usuario = null;
+        try {
+            usuario = new ObjectMapper().readValue(json, Usuario.class);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return repository.remove(usuario);
     }
 
     @ApiOperation(value = "Atualiza Usuario")
     @PatchMapping("/{username}")
-    public Usuario atualizaUsuario(@NotNull@PathVariable("username") String username,
+    public String atualizaUsuario(@NotNull@PathVariable("username") String username,
                                 @RequestBody @NotNull Usuario usuario) {return repository.atualiza(username, usuario);}
 
 

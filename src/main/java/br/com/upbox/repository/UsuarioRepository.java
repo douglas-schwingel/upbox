@@ -51,17 +51,12 @@ public class UsuarioRepository {
      * usuário com o mesmo username.
      */
     public String salva(Usuario usuario) {
-        if (verificaSeUsuarioJaExiste(usuario.getUsername())) return null;
+        Document document = populaJsonString(usuario);
+        if (verificaSeUsuarioJaExiste(usuario.getUsername())) return document.toJson()      ;
         conecta();
         collection.insertOne(usuario);
         logger.log(Level.INFO, "Salvando no banco: " + usuario.getNome());
         client.close();
-        Document document = new Document();
-        document.put("nome", usuario.getNome());
-        document.put("email", usuario.getEmail());
-        document.put("username", usuario.getUsername());
-        document.put("senha", usuario.getSenha());
-        document.put("uuid", usuario.getUuid().toString());
         return document.toJson();
     }
 
@@ -70,13 +65,14 @@ public class UsuarioRepository {
      * @return O Usuario que possui o username passado ou null caso não exista
      * @apiNote Busca um usuário no banco de acordo com seu username
      */
-    public Usuario busca(String username) {
+    public String busca(String username) {
         conecta();
         MongoCursor<Usuario> cursor = collection.find(Filters.eq(PARAM_BUSCA, username), Usuario.class).iterator();
         if (cursor.hasNext()) {
             Usuario resultado = cursor.next();
             client.close();
-            return resultado;
+            Document document = populaJsonString(resultado);
+            return document.toJson();
         }
         logger.log(Level.INFO, "Usuário {0} não encontrado", username);
         client.close();
@@ -88,7 +84,7 @@ public class UsuarioRepository {
      * @return Usuario deletado ou null caso não exista nenhum usuario com o mesmo username no banco
      * @apiNote Remove um usuário baseado no username passado
      */
-    public Usuario remove(Usuario usuario) {
+    public String remove(Usuario usuario) {
         if (!verificaSeUsuarioJaExiste(usuario.getUsername())) {
             logger.log(Level.INFO, "Usuário {0} não existe.", usuario.getUsername());
             return null;
@@ -97,34 +93,17 @@ public class UsuarioRepository {
         logger.log(Level.INFO, "Apagando usuário {0}", usuario.getUsername());
         Usuario resultado = collection.findOneAndDelete(Filters.eq(PARAM_BUSCA, usuario.getUsername()));
         client.close();
-        return resultado;
+        Document document = populaJsonString(resultado);
+        return document.toJson();
     }
-
-    /**
-     * @param username - username do usuario a ser removido
-     * @return Usuario deletado ou null caso não exista nenhum usuario com o mesmo username no banco
-     * @apiNote Remove um usuário baseado no username passado
-     */
-    public Usuario remove(String username) {
-        if (!verificaSeUsuarioJaExiste(username)) {
-            logger.log(Level.INFO, "Usuário {0} não existe.", username);
-            return null;
-        }
-        conecta();
-        logger.log(Level.INFO, "Apagando usuário {0}", username);
-        Usuario resultado = collection.findOneAndDelete(Filters.eq(PARAM_BUSCA, username));
-        client.close();
-        return resultado;
-    }
-
 
     /**
      * @param username - Username do usuario que vai ser atualizado
      * @param usuario  - Usuario com os dados novos
-     * @return Usuario que foi alterado com seus campos anteriores à alteração.
+     * @return Usuario com os dados novos.
      * @apiNote Atualiza um usuário do banco baseado em outro
      */
-    public Usuario atualiza(String username, Usuario usuario) {
+    public String atualiza(String username, Usuario usuario) {
         if (!verificaSeUsuarioJaExiste(username)) {
             logger.log(Level.INFO, "Usuário {0} não encontrado", username);
             return null;
@@ -134,7 +113,8 @@ public class UsuarioRepository {
         Bson uptade = verificaDadosParaAtualizacao(usuario);
         Usuario usuarioAntigo = collection.findOneAndUpdate(filter, uptade);
         logger.log(Level.INFO, "Atualizado: {0}", usuarioAntigo.getUsername());
-        return usuarioAntigo;
+        Document document = populaJsonString(usuario);
+        return document.toJson();
     }
 
     private Document verificaDadosParaAtualizacao(Usuario usuario) {
@@ -152,6 +132,16 @@ public class UsuarioRepository {
 
 
     //    Métodos auxiliares
+
+    private Document populaJsonString(Usuario usuario) {
+        Document document = new Document();
+        document.put("nome", usuario.getNome());
+        document.put("email", usuario.getEmail());
+        document.put("username", usuario.getUsername());
+        document.put("senha", usuario.getSenha());
+        document.put("uuid", usuario.getUuid().toString());
+        return document;
+    }
     private boolean verificaSeUsuarioJaExiste(String username) {
         if (busca(username) != null) {
             logger.log(Level.INFO, "Usuario já cadastrado: {0}", username);
