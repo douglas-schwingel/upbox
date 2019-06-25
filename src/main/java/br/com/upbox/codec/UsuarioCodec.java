@@ -10,8 +10,6 @@ import org.bson.codecs.EncoderContext;
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.time.Instant;
-import java.time.LocalDate;
-import java.time.ZoneId;
 import java.util.UUID;
 
 public class UsuarioCodec implements CollectibleCodec<Usuario> {
@@ -59,7 +57,7 @@ public class UsuarioCodec implements CollectibleCodec<Usuario> {
         usuario.setNome(document.getString("nome"));
         usuario.setEmail(document.getString("email"));
         Instant dataInstant = document.getDate("dataNascimento").toInstant();
-        usuario.setDataNascimento(LocalDate.ofInstant(dataInstant, ZoneId.systemDefault()));
+//        usuario.setDataNascimento(LocalDate.ofInstant(dataInstant, ZoneId.systemDefault()));
         usuario.setUsername(document.getString("username"));
         usuario.setSenha(document.getString("senha"));
         return usuario;
@@ -72,7 +70,7 @@ public class UsuarioCodec implements CollectibleCodec<Usuario> {
         document.put("nome", usuario.getNome());
         document.put("email", usuario.getEmail());
         document.put("username", usuario.getUsername());
-        document.put("dataNascimento", usuario.getDataNascimento());
+//        document.put("dataNascimento", usuario.getDataNascimento());
         String salto = BCrypt.gensalt();
         String senhaHash = BCrypt.hashpw(usuario.getSenha(), salto);
         document.put("senha", senhaHash);

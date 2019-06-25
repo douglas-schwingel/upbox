@@ -2,6 +2,7 @@ package br.com.upbox.repository;
 
 import br.com.upbox.codec.UsuarioCodec;
 import br.com.upbox.models.Usuario;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
 import com.mongodb.client.MongoCollection;
@@ -14,6 +15,7 @@ import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.conversions.Bson;
 import org.springframework.stereotype.Repository;
 
+import java.util.UUID;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -22,8 +24,8 @@ import java.util.logging.Logger;
 public class UsuarioRepository {
     private static final Logger logger = Logger.getLogger(UsuarioRepository.class.getName());
     private static final String PARAM_BUSCA = "username";
-    private static final String URL_MONGO = "mongodb://admin:upb0x4dm1n@ds343127.mlab.com:43127/heroku_d42tsbq0";
-    private static final String MONGO_DB = "heroku_d42tsbq0";
+    private static final String URL_MONGO = "localhost:27017";
+    private static final String MONGO_DB = "upbox";
 
     private MongoClient client;
     private MongoCollection<Usuario> collection;
@@ -44,17 +46,23 @@ public class UsuarioRepository {
 
     /**
      * @param usuario - usuario a ser salvo
-     * @return Retorna o usuário salvo no banco ou null se o usuário já estiver cadastrado
+     * @return Retorna um json do usuario ou null se o usuário já estiver cadastrado
      * @apiNote Salva um usuário no banco caso ainda não exista nenhum
      * usuário com o mesmo username.
      */
-    public Usuario salva(Usuario usuario) {
+    public String salva(Usuario usuario) {
         if (verificaSeUsuarioJaExiste(usuario.getUsername())) return null;
         conecta();
         collection.insertOne(usuario);
         logger.log(Level.INFO, "Salvando no banco: " + usuario.getNome());
         client.close();
-        return usuario;
+        Document document = new Document();
+        document.put("nome", usuario.getNome());
+        document.put("email", usuario.getEmail());
+        document.put("username", usuario.getUsername());
+        document.put("senha", usuario.getSenha());
+        document.put("uuid", usuario.getUuid().toString());
+        return document.toJson();
     }
 
     /**
@@ -138,7 +146,7 @@ public class UsuarioRepository {
         if (usuario.getEmail() != null) document.put("email", usuario.getEmail());
         if (usuario.getSenha() != null) document.put("senha", usuario.getSenha());
         if (usuario.getId() != null) document.put("_id", usuario.getId());
-        if (usuario.getDataNascimento() != null) document.put("dataNascimento", usuario.getDataNascimento());
+//        if (usuario.getDataNascimento() != null) document.put("dataNascimento", usuario.getDataNascimento());
         return new Document("$set", document);
     }
 

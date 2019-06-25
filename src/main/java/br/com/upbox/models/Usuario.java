@@ -1,6 +1,8 @@
 package br.com.upbox.models;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -9,6 +11,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Document
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Usuario {
 
     @Id
@@ -17,7 +20,8 @@ public class Usuario {
     private UUID uuid;
     private String nome;
     private String email;
-    private LocalDate dataNascimento;
+//    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+//    private LocalDate dataNascimento;
     private String username;
     private String senha;
 
@@ -46,13 +50,13 @@ public class Usuario {
     }
 
 
-    public LocalDate getDataNascimento() {
-        return dataNascimento;
-    }
-
-    public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
+//    public LocalDate getDataNascimento() {
+//        return dataNascimento;
+//    }
+//
+//    public void setDataNascimento(LocalDate dataNascimento) {
+//        this.dataNascimento = dataNascimento;
+//    }
 
     public String getUsername() {
         return username;

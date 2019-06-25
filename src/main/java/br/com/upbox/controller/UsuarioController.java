@@ -12,12 +12,15 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.constraints.NotNull;
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 @RestController
 @Api(tags = "Usuario", produces = MediaType.APPLICATION_JSON_UTF8_VALUE, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
 @RequestMapping("/usuario")
 public class UsuarioController {
+    private static final Logger logger = Logger.getLogger(UsuarioController.class.getName());
 
     @Autowired
     private UsuarioRepository repository;
@@ -30,12 +33,15 @@ public class UsuarioController {
 
     @ApiOperation(value = "Salva Usuario")
     @PostMapping
-    public Usuario salvaUsuario(@RequestBody @NotNull String json) {
+    public String salvaUsuario(@RequestBody @NotNull String json) {
         Usuario usuario = null;
+        logger.log(Level.INFO, "Json recebido: {0}", json);
         try {
             usuario = new ObjectMapper().readValue(json, Usuario.class);
+            logger.log(Level.INFO, "Usuario mapeado: {0}", usuario.getUsername());
         } catch (IOException e) {
             e.printStackTrace();
+
         }
         return repository.salva(usuario);
     }

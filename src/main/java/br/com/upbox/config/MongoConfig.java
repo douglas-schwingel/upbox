@@ -13,15 +13,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MongoConfig {
 
-    @Bean
-    public MongoClient mongoClient() {
-        Codec<Document> codec = MongoClient.getDefaultCodecRegistry().get(Document.class);
-        UsuarioCodec usuarioCodec = new UsuarioCodec(codec);
-
-        CodecRegistry codecRegistry = CodecRegistries.fromRegistries(MongoClient.getDefaultCodecRegistry(),
-                CodecRegistries.fromCodecs(usuarioCodec));
-
-        MongoClientOptions options = MongoClientOptions.builder().codecRegistry(codecRegistry).build();
-        return new MongoClient("mongodb://admin:upb0x4dm1n@ds343127.mlab.com:43127/heroku_d42tsbq0", options);
-    }
+//    @Bean
+//    public MongoClient mongoClient() {
+//        Codec<Document> codec = MongoClient.getDefaultCodecRegistry().get(Document.class);
+//        UsuarioCodec usuarioCodec = new UsuarioCodec(codec);
+//
+//        CodecRegistry codecRegistry = CodecRegistries.fromRegistries(MongoClient.getDefaultCodecRegistry(),
+//                CodecRegistries.fromCodecs(usuarioCodec));
+//
+//        MongoClientOptions options = MongoClientOptions.builder().codecRegistry(codecRegistry).build();
+//        return new MongoClient("localhost:27017", options);
+//    }
 }
